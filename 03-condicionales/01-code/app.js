@@ -29,4 +29,4 @@ if(nombre === 'Mario' || nombre === 'Carlos' && edad >= 18){
     console.log('no puede ingresar')
 }else{
     console.log('no sé qué hacer')
-}
+}+
