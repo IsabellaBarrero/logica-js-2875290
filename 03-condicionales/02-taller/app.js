@@ -1,4 +1,4 @@
-console.log('ejecutando')
+coconsole.log('ejecutando')
 
 //Punto1
 /* let altura = prompt ('Ingrese su altura en cm:').toLowerCase ();
