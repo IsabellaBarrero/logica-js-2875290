@@ -1,0 +1,93 @@
+.imglogo {
+    width: 150px;
+    padding: 8px 20px;
+    border: none;
+    box-shadow: none;
+}
+
+.contenedor1 {
+    max-width: 100%;
+    margin: 0;
+}
+
+button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+header .contenedor1 {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header button{
+    font-size: 15px;
+    justify-content: space-between;
+    padding: 12px 15px;
+    border: rgb(100, 151, 168);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    font-weight: bold;
+    background-color:rgb(100, 151, 168);
+    color: white;
+}
+
+header button:hover {
+   background-color: rgb(248, 242, 213);
+   border: rgb(248, 242, 213);
+   color:rgb(100, 151, 168) ;
+}
+
+h1 {
+    font-family: courier;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(100, 151, 158);
+    text-decoration:underline;
+}
+
+
+.Galeria {
+    text-align: center; /* Alinea el contenido al centro horizontalmente */
+    margin-top: 20px; /* Margen superior */
+    padding: 20px; /* Espaciado interno para separar del borde exterior */
+    border: 2px solid #ccc; /* Borde sólido gris con grosor de 2px */
+    background-color: #f0f0f0; /* Color de fondo gris claro para el contenedor */
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+
+.Galeria .lista-imagenes img {
+    display: block; /* Asegura que las imágenes se muestren como bloques */
+    width: 100%; /* Utiliza el ancho del contenedor padre */
+    height: auto; /* Altura automática para mantener la proporción */
+    border: 2px solid #ccc; /* Borde sólido gris con grosor de 2px */
+    padding: 5px; /* Espaciado interno de 5px para separar el borde de la imagen */
+    margin-bottom: 10px; /* Margen inferior de 10px para separar las imágenes */
+    background-color: #fff; /* Color de fondo blanco para las imágenes */
+}
+
+.Galeria button {
+    margin-top: 10px; /* Margen superior para separar los botones del contenido superior */
+    padding: 10px 20px; /* Espaciado interno de los botones */
+    background-color: #a483bb; /* Color de fondo azul */
+    color: #f8f1d3; /* Color del texto blanco */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cursor tipo puntero al pasar por encima */
+}
+
+.Galeria button:hover {
+    background-color: #afd093; /* Color de fondo más oscuro al pasar el mouse */
+    color: #ffffff;
+}
+
+
+
+
+
+
+
